@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Practica.css">
+</head>
+<script src="Practica.js"></script>
+
+<body>
+    <div class="container">
+        <form id="form" method="get">
+            <h1>Registro</h1>
+            <div class="input-control">
+                <label>Nombres y Apellidos</label><br>
+                <input id="name" name="name" type="text"><br>
+            </div>
+
+            <div class="input-control">
+                <label>Edad</label><br>
+                <input id="age" name="number" type="number"><br>
+            </div>
+
+            <div class="input-control">
+                <label>Año de Nacimiento</label><br>
+                <input id="birthday" name="textNum" type="text"><br>
+            </div>
+
+            <div class="input-control">
+                <label>Correo</label><br>
+                <input id="email" name="email" type="email"><br>
+            </div>
+
+            <div class="input-control">
+                <label>Contraseña</label><br>
+                <input id="password" name="password" type="password"><br>
+            </div>
+
+            <button type="submit" onclick="Registrar()">Registrarse</button>
+        </form>
+    </div>
+</body>
+
+</html>
