@@ -1,4 +1,4 @@
-
+//js
 function Registrar() {
 
   //codigo para capturar lo que el usuario escribe
