@@ -1,4 +1,4 @@
-//js
+
 function Registrar() {
 
   //codigo para capturar lo que el usuario escribe
@@ -118,3 +118,6 @@ function validatePasswords(password) {
     return true;
   return false;
 }
+
+//al acabar de rellenar el formulario y las validaciones, le da click al boton y se limpia todo quiere decir que se valido....
+//estare mejorando aun me falta bastante gracias
